@@ -29,5 +29,5 @@
 
     peer chaincode query -n evmcc -C mychannel -c '{"Args":["eedede908994eea9fbc570a99e7ada52095c9e84","6d4ce63c"]}' --hex
 
-peer chaincode query -n evmcc -C mychannel -c '{"Args":["account"]}'
+    peer chaincode query -n evmcc -C mychannel -c '{"Args":["account"]}'
 
